@@ -1,0 +1,46 @@
+.box {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.rojo {
+    background: #ee3e64;
+    top: 0;
+    left: 0;
+}
+.azul {
+    background: #44accf;
+    top: 0px;
+    right: 0px;
+}
+.verde {
+    background: #b7d84b; 
+    left: 0;
+    bottom: 0;
+}
+.amarillo {
+    background: yellow;
+    right: 0;
+    bottom: 0;
+}
+.dis {
+    border-spacing:5px;
+    border-style: inset;
+    border-radius: 150%;
+    background-color: #00FFFF;
+    text-align:center;
+    display:inline;
+    padding:20px;
+    color:black;
+    position:absolute;
+    margin-top:700px;
+    margin-left: 240px;
+}
+a:hover {
+    color: crimson;
+    background-color: black;
+}
